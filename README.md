@@ -75,3 +75,4 @@
   is nice to have but
   not critical so consider adding chart only 
   when all the other functionality is finished
+- Alternative to the above, using FOSS: https://www.geeksforgeeks.org/how-to-create-chart-using-bootstrap/
