@@ -10,14 +10,23 @@
   - A user can see profit/loss at a single point in time
 - Recommended practices
   - Choose MVP (Minimum Viable Product)
+    - Choose simplest data model
+    - Abstract needed functionality
+      - For example, create "get_current_price(stock)" 
+        method and returns some mock value
+    - Use simplest UI possible
   - Then add feature incrementally
 
-## Designing of APIs
+## Designing of REST APIs
 
 - Get all stocks
   - get http://localhost:5000/stocks
 - Buy and sell 
   - post http://localhost:5000/stocks/amzn?action=buy&volume=100
 - A user can see total profit/loss a single point in time
-  - There are multiple options
+  - Do you need to create an API for this? 
+  - Can profit/loss be displayed automatically 
+    when all stocks are displayed?
+    - If you take this approach, where do you do
+      this computation, client or server?
 
