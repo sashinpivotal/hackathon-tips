@@ -86,4 +86,5 @@
   - You still have to provide credit card or paypal
 - On the VSC, install "GitHub Copilot" plug-in
   - Restart VSC
-- Write comment and then press CTRL+Return
+- Write comment and then press CTRL+Return (for both
+  Windows and Mac) to generate the code
