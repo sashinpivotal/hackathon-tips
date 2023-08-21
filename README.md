@@ -75,4 +75,15 @@
   is nice to have but
   not critical so consider adding chart only 
   when all the other functionality is finished
-- Alternative to the above, using FOSS: https://www.geeksforgeeks.org/how-to-create-chart-using-bootstrap/
+- Alternative to the above, using [FOSS](https://www.geeksforgeeks.org/how-to-create-chart-using-bootstrap/)
+
+## GitHub CoPilot
+
+- Create GitHub account (if you don't have one)
+- Go to your Github account page
+- Choose "Setting->Try Copilot" and follow instructions
+  - You can try 30-day free trial
+  - You still have to provide credit card or paypal
+- On the VSC, install "GitHub Copilot" plug-in
+  - Restart VSC
+- Write comment and then press CTRL+Return
