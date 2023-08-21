@@ -30,6 +30,9 @@
   - get http://localhost:5000/stocks
 - Buy and sell 
   - post http://localhost:5000/stocks/amzn?action=buy&volume=100
+  - See [how to get request parameter values](https://stackabuse.com/get-request-query-parameters-with-flask/) 
+    for example code
+    
 - A user can see total profit/loss a single point in time
   - Do you need to create an API for this? 
   - Can profit/loss be displayed automatically 
