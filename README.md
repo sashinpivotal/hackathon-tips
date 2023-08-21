@@ -13,11 +13,11 @@
     displayed in the "display all stocks")
   - A user can buy/sell shares of a stock
   - A user can see profit/loss at a single point in time
-- 
+ 
 - Recommended practices
   - Work on MVP (Minimum Viable Product) 
     - Choose simplest data model
-    - Draw wireframes for UI
+    - Design REST API
     - Abstract needed functionality if needed
       - For example, if there is a need to get current
         price of a stock, you can create "get_current_price(stock)" 
@@ -25,6 +25,7 @@
       - Later on, you can replace it with logic
         that gets the real-time stock price value
     - Use simplest UI possible
+    - Draw wireframes for UI
     - Start something simple
       - For example, make end-to-end operation work
         for displaying all stocks first
