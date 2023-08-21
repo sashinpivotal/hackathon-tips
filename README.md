@@ -31,6 +31,7 @@
         for displaying all stocks first
 
   - Then add feature incrementally
+  - Work in two hour SPRINT cycles
 
 ## Designing of REST APIs
 
