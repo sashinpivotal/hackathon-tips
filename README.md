@@ -1,11 +1,10 @@
-# Hackathon tips
 
-- [Hackathon tips](#hackathon-tips)
-  - [Requirement](#requirement)
-  - [Development methodology](#development-methodology)
-  - [Designing of REST APIs](#designing-of-rest-apis)
-  - [UI](#ui)
-  - [GitHub CoPilot](#github-copilot)
+
+- [Requirement](#requirement)
+- [Development methodology](#development-methodology)
+- [Designing of REST APIs](#designing-of-rest-apis)
+- [UI](#ui)
+- [GitHub CoPilot](#github-copilot)
 
 ## Requirement
 
