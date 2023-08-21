@@ -45,6 +45,7 @@
 - You are welcome to use your own HTML/CSS but
   feel free to use Bootstrap, which is "simpler
   to use" to create a [Grid](https://www.w3schools.com/bootstrap/bootstrap_grid_system.asp)
-- Creating graphical chart is nice to have but
+- [Creating graphical chart](https://mdbootstrap.com/docs/standard/data/charts/) 
+  is nice to have but
   not critical so consider adding chart only 
   when all the other functionality is finished
