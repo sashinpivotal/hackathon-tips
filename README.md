@@ -16,22 +16,23 @@
  
 - Recommended practices
   - Work on MVP (Minimum Viable Product) 
-    - Choose simplest data model
-    - Design REST API
-    - Abstract needed functionality if needed
-      - For example, if there is a need to get current
+    - Backend
+      - Choose simplest data model
+      - Design REST API
+      - Abstract needed functionality if needed
+        - For example, if there is a need to get current
         price of a stock, you can create "get_current_price(stock)" 
         method and returns some mock "current price" value initially
-      - Later on, you can replace it with logic
+        - Later on, you can replace it with logic
         that gets the real-time stock price value
-    - Use simplest UI possible
-    - Draw wireframes for UI
+    - UI    
+      - Use simplest UI possible
+      - Draw wireframes for UI
     - Start something simple
       - For example, make end-to-end operation work
         for displaying all stocks first
-
-  - Then add feature incrementally
-  - Work in two hour SPRINT cycles
+      - Then add feature incrementally
+  - Work in two-hour SPRINT cycles
 
 ## Designing of REST APIs
 
