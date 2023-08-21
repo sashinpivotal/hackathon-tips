@@ -46,10 +46,10 @@
         for example code
 
   - Option #2
-    - post http://localhost:5000/stocks/amzn with
+    - post http://localhost:5000/transactions/ with
       
       ```
-      {"action": "buy", "volume": 100}
+      {"action": "buy", stock: "AMAZN", "volume": 100}
       ```
   - Option #3
     - put http://localhost:5000/stocks/amzn with
