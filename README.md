@@ -1,11 +1,15 @@
 # Hackathon tips
 
+- [Hackathon tips](#hackathon-tips)
+  - [Requirement](#requirement)
+  - [Development methodology](#development-methodology)
+  - [Designing of REST APIs](#designing-of-rest-apis)
+  - [UI](#ui)
+  - [GitHub CoPilot](#github-copilot)
+
 ## Requirement
 
 - [Requirement specification](https://bitbucket.org/neuedamats/portfoliomanager/src/master/)
-
-## Development methodology
-
 - User stories (assuming you are using Stock as an asset type)
   - A user can see all stocks s/he current owns
   - A user can see detailed info on a particular stock 
@@ -13,6 +17,8 @@
     displayed in the "display all stocks")
   - A user can buy/sell shares of a stock
   - A user can see profit/loss at a single point in time
+
+## Development methodology
  
 - Recommended practices
   - Work on MVP (Minimum Viable Product) 
