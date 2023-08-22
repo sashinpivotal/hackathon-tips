@@ -126,10 +126,10 @@
 
 ## Debugging tips
 
-- In order to kill a process running on port 5000 on
-  Linux/Mac, you can run the following command
+- In order to find processes running on port 5000 on
+  Linux/Mac, you can run the following command 
   
 ```
-lsof -wni tcp:5000 | awk 'NR>1{kill -9 $2}'
+lsof -wni tcp:5000
 ```
 
