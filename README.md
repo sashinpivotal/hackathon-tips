@@ -2,6 +2,8 @@
 
 - [Requirement](#requirement)
 - [Development methodology](#development-methodology)
+- [Database Schema and Object model](#database-schema-and-object-model)
+  - [Schema](#schema)
 - [Designing of REST APIs](#designing-of-rest-apis)
 - [UI](#ui)
 - [GitHub CoPilot](#github-copilot)
@@ -42,33 +44,44 @@
     - Work on a small feature one at a time that could
       be implemented in ~two-hour cycle
 
+## Database Schema and Object model
+
+### Schema 
+- For "stocks" table, what fields do you need?
+  - stock symbol
+  - volume
+  - Do I want profit/loss field in the table
+    or can it be computed at the request of
+    a user?
+  
+- What would be the primary key of the stocks table?
+  - Do I want to use stock symbol as a primary key?
+    Or do I want to use Database generated primary
+    key field?
+
 ## Designing of REST APIs
 
 - Get all stocks
   - get http://localhost:5000/stocks
-- Buy and sell 
-  - Option #1
-    - GET/POST http://localhost:5000/stocks/amzn?action=buy&volume=100
-      - For buy/sell, you can use either "GET" and "POST"
-      - Which one would you like to use?
-        - Think about [Idempotency](https://blog.dreamfactory.com/what-is-idempotency/#:~:text=Idempotency%20is%20a%20property%20of%20certain%20operations%20or%20API%20requests,it%20was%20executed%20only%20once.)
   
-
-  - Option #2
-    - POST http://localhost:5000/stocks/ with
-      
-      ```
-      {"action": "buy", stock: "amzn", "volume": 100}
-      ```
-
-  - Option #3
+- Buy and sell (in random order)
+  - Do we allow this operation only on existing stock?
+ 
+  - Option #1
     - GET http://localhost:5000/stocks/amzn
     - PUT http://localhost:5000/stocks/amzn with
 
       ```
-      {complete json of stock}
+      {complete json of stock with "volume" attribute reflects after buy/sell value}
       ```
-    
+   - Option #2
+    - GET/PUT/POST http://localhost:5000/stocks/amzn?action=buy&volume=100
+      - For buy/sell, you can use "GET", "PUT", and "POST"
+      - Which one would you like to use?
+        - Think about [Idempotency](https://blog.dreamfactory.com/what-is-idempotency/#:~:text=Idempotency%20is%20a%20property%20of%20certain%20operations%20or%20API%20requests,it%20was%20executed%20only%20once.)
+      - What happens if the response of "buy/sell" request gets lost?
+        Should client send the request again? What would be the consequence?
+  
 - A user can see total profit/loss a single point in time
   - Do you need to create an API for this? 
   - Can profit/loss be displayed automatically 
