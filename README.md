@@ -85,6 +85,11 @@
         - Think about [Idempotency](https://blog.dreamfactory.com/what-is-idempotency/#:~:text=Idempotency%20is%20a%20property%20of%20certain%20operations%20or%20API%20requests,it%20was%20executed%20only%20once.)
       - What happens if the response of "buy/sell" request gets lost?
         Should client send the request again? What would be the consequence?
+
+   - Option #3
+     - GET/PUT/POST http://localhost:5000/buy/appl/300 for buying
+     - GET/PUT/POST http://localhost:5000/sell/appl/200 for buying
+  
   
 - A user can see total profit/loss a single point in time
   - Option #1: Do you need to create an API for this? 
