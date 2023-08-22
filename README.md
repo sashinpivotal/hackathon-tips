@@ -88,7 +88,7 @@
 
    - Option #3
      - GET/PUT/POST http://localhost:5000/buy/appl/300 for buying
-     - GET/PUT/POST http://localhost:5000/sell/appl/200 for buying
+     - GET/PUT/POST http://localhost:5000/sell/appl/200 for selling
   
   
 - A user can see total profit/loss a single point in time
