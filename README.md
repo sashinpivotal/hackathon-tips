@@ -4,6 +4,7 @@
 - [Development methodology](#development-methodology)
 - [Database Schema and Object model](#database-schema-and-object-model)
   - [Schema](#schema)
+  - [Object model](#object-model)
 - [Designing of REST APIs](#designing-of-rest-apis)
 - [UI](#ui)
 - [GitHub CoPilot](#github-copilot)
@@ -59,6 +60,9 @@
     Or do I want to use Database generated primary
     key field?
 
+### Object model
+- Does the object model has to match table?
+
 ## Designing of REST APIs
 
 - Get all stocks
@@ -83,8 +87,10 @@
         Should client send the request again? What would be the consequence?
   
 - A user can see total profit/loss a single point in time
-  - Do you need to create an API for this? 
-  - Can profit/loss be displayed automatically 
+  - Option #1: Do you need to create an API for this? 
+    - Example: localhost:5000/stocks/totalProfit
+    - Example: localhost:5000/stocks/appl/profit
+  - Option #2: Can profit/loss be computed automatically 
     when all stocks are displayed?
     - If you take this approach, where do you do
       this computation, client or server?
