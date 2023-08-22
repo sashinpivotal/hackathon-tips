@@ -8,6 +8,7 @@
 - [Designing of REST APIs](#designing-of-rest-apis)
 - [UI](#ui)
 - [GitHub CoPilot](#github-copilot)
+- [Debugging tips](#debugging-tips)
 
 ## Requirement
 
@@ -93,8 +94,8 @@
   
 - A user can see total profit/loss a single point in time
   - Option #1: Do you need to create an API for this? 
-    - Example: localhost:5000/stocks/totalProfit
-    - Example: localhost:5000/stocks/appl/profit
+    - Example: localhost:5000/stocks/totalProfitOrLoss
+    - Example: localhost:5000/stocks/APPL/profit
   - Option #2: Can profit/loss be computed automatically 
     when all stocks are displayed?
     - If you take this approach, where do you do
@@ -122,3 +123,13 @@
   - Restart VSC
 - Write comment and then press CTRL+Return (for both
   Windows and Mac) to generate the example code
+
+## Debugging tips
+
+- In order to kill a process running on port 5000 on
+  Linux/Mac, you can run the following command
+  
+```
+lsof -wni tcp:5000 | awk 'NR>1{kill -9 $2}'
+```
+
