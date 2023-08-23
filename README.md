@@ -135,8 +135,15 @@ lsof -wni tcp:5000
 ```
 
 - You might experience CORS error when you access
-  http://127.0.0.1:5000
+  http://127.0.0.1:5000 in your client code
+
   - Change it to http://localhost:5000 to fix it
+    as following in the `portfolio.html`
+
+  ```
+  const serverURL = "http://localhost:5000";
+  ```
+  
 
 ## Misc tips
 
