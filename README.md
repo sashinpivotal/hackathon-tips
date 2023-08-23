@@ -9,6 +9,7 @@
 - [UI](#ui)
 - [GitHub CoPilot](#github-copilot)
 - [Debugging tips](#debugging-tips)
+- [Misc tips](#misc-tips)
 
 ## Requirement
 
@@ -132,4 +133,13 @@
 ```
 lsof -wni tcp:5000
 ```
+
+- You might experience CORS error when you access
+  http://127.0.0.1:5000
+  - Change it to http://localhost:5000 to fix it
+
+## Misc tips
+
+- How can you get a real-time stock price using Yahoo API?
+- How to add a cell (column) to the table using JavaScript?
 
