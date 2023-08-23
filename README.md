@@ -10,6 +10,7 @@
 - [GitHub CoPilot](#github-copilot)
 - [Debugging tips](#debugging-tips)
 - [Tips and Tricks](#tips-and-tricks)
+- [Extra features to work on](#extra-features-to-work-on)
 
 ## Requirement
 
@@ -166,3 +167,11 @@ lsof -wni tcp:5000
       }
   ```
 
+## Extra features to work on
+
+- Add support for multiple users
+- Add a live ticker of the current price for each 
+  stock in the portfolio, with real-time adjustment 
+  in the portfolio value.
+
+  
