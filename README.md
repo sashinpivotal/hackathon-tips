@@ -148,5 +148,20 @@ lsof -wni tcp:5000
 ## Misc tips
 
 - How can you get a real-time stock price using Yahoo API?
-- How to add a cell (column) to the table using JavaScript?
+- How to add a row and cells to the row to the table 
+  using JavaScript?  (See example code below)
+
+  ```
+      function updateTable(data) {
+          const tbody = document.getElementById('stockTableBody');
+          tbody.innerHTML = '';
+          data.forEach(stock => {
+              let row = tbody.insertRow();
+              let cell1 = row.insertCell(0);
+              let cell2 = row.insertCell(1);
+              cell1.textContent = stock.name;
+              cell2.textContent = stock.quantity;
+          });
+      }
+  ```
 
