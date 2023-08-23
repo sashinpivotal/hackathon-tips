@@ -9,7 +9,7 @@
 - [UI](#ui)
 - [GitHub CoPilot](#github-copilot)
 - [Debugging tips](#debugging-tips)
-- [Misc tips](#misc-tips)
+- [Tips and Tricks](#tips-and-tricks)
 
 ## Requirement
 
@@ -145,7 +145,7 @@ lsof -wni tcp:5000
   ```
   
 
-## Misc tips
+## Tips and Tricks
 
 - How can you get a real-time stock price using Yahoo API?
 - How to add a row and cells to the row to the table 
