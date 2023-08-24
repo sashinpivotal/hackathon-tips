@@ -11,6 +11,7 @@
 - [Debugging tips](#debugging-tips)
 - [Tips and Tricks](#tips-and-tricks)
 - [Extra feature ideas to work on](#extra-feature-ideas-to-work-on)
+- [Misc. Resources](#misc-resources)
 
 ## Requirement
 
@@ -183,3 +184,7 @@ ideas.
   are closed.  This may eliminate the problem people 
   are seeing of "mysqld" refusing connections.
 
+## Misc. Resources
+
+- [Class Resource Material](https://s3.eu-west-1.amazonaws.com/neueda.conygre.com/Sites/TAP_Graduate_Programme_NAM/site/materials/Schedule%20and%20Misc./Resource%20Material.pdf)
+- [How to fetch with async/await](https://dmitripavlutin.com/javascript-fetch-async-await/#5-parallel-fetch-requests)
