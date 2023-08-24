@@ -174,6 +174,7 @@ you think cool.  The following lists some
 ideas.
 
 - Add support for multiple users
+- Add support for multiple asset types
 - Add a live ticker of the current price for each 
   stock in the portfolio, with real-time adjustment 
   in the portfolio value.
