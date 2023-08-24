@@ -11,7 +11,6 @@
 - [Debugging tips](#debugging-tips)
 - [Tips and Tricks](#tips-and-tricks)
 - [Extra features to work on](#extra-features-to-work-on)
-- [Presentation tips](#presentation-tips)
 
 ## Requirement
 
@@ -175,11 +174,3 @@ lsof -wni tcp:5000
   stock in the portfolio, with real-time adjustment 
   in the portfolio value.
 
-## Presentation tips
-
-- Please read "Presentation Guidelines" and
-  "Presentation Mechanics" sections of
-  the [Requirement](#requirement)
-- Each team has up to 15 minutes including Q&A
-- Usage of presentation slides is not required
-  
