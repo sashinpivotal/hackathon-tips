@@ -10,7 +10,7 @@
 - [GitHub CoPilot](#github-copilot)
 - [Debugging tips](#debugging-tips)
 - [Tips and Tricks](#tips-and-tricks)
-- [Extra features to work on](#extra-features-to-work-on)
+- [Extra feature ideas to work on](#extra-feature-ideas-to-work-on)
 
 ## Requirement
 
@@ -167,10 +167,18 @@ lsof -wni tcp:5000
       }
   ```
 
-## Extra features to work on
+## Extra feature ideas to work on
+
+You are welcome to work on any extra features
+you think cool.  The following lists some
+ideas.
 
 - Add support for multiple users
 - Add a live ticker of the current price for each 
   stock in the portfolio, with real-time adjustment 
   in the portfolio value.
+- Following the pattern in the revised CD example, 
+  modify your use of MySQL to ensure that the resources 
+  are closed.  This may eliminate the problem people 
+  are seeing of "mysqld" refusing connections.
 
