@@ -43,8 +43,7 @@
     - Start something simple
       - For example, make end-to-end operation work
         for displaying all stocks first 
-        (as demonstrated by Lucas during the class)
-      - Then add feature incrementally
+      - Then add features incrementally
   - Work in two-hour SPRINT cycles
     - Work on a small feature one at a time that could
       be implemented in ~two-hour cycle
