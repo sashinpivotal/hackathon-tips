@@ -17,7 +17,7 @@
 
 - [Requirement specification](https://bitbucket.org/neuedamats/portfoliomanager/src/master/)
 - User stories (assuming you are using Stock as an asset type)
-  - A user can see all stocks s/he current owns2
+  - A user can see all stocks s/he current owns3
   - A user can see detailed info on a particular stock 
     (only if there is more detailed info that can be
     displayed in the "display all stocks")
